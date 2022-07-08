@@ -16,8 +16,49 @@ function generateMarkdown(data) {
 
 `;
 
+// Description
 output += `${data.project_desc}
 `;
+
+//Table of contents
+output += `## Table of Contents
+1. [Installation Instructions](#installation-instructions)
+2. [Usage Guide](#usage-guide)
+3. [License](#license)
+4. [Contribution Gude](#contribution-guide)
+5. [Test Instructions](#test-instructions)
+6. [Questions](#questions)
+`;
+
+// Installation
+output += `## Installation Instructions
+${data.install_instructions}
+`;
+
+// Usage
+output += `## Usage Guide
+${data.project_usage}
+`;
+
+// License
+output += `## License
+${data.project_license}
+`;
+
+// Contributing
+output += `## Contribution Guide
+${data.contribution_guide}
+`;
+
+// Tests
+output += `## Test Instructions
+${data.test_instructions}
+`;
+
+// Questions
+output += `## Questions
+Github: [${data.github_username}](https://github.com/${data.github_username})  
+Email: ${data.email_address}`;
 
 return output;
 }
