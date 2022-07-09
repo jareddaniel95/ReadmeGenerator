@@ -1,6 +1,7 @@
-# Jared's Project
+[![License: MPL 2.0](https://img.shields.io/badge/License-MPL_2.0-brightgreen.svg)](https://opensource.org/licenses/MPL-2.0)
+ # Jared's Project
 
-It's a project about generating this readme
+A description here
 ## Table of Contents
 1. [Installation Instructions](#installation-instructions)
 2. [Usage Guide](#usage-guide)
@@ -9,15 +10,15 @@ It's a project about generating this readme
 5. [Test Instructions](#test-instructions)
 6. [Questions](#questions)
 ## Installation Instructions
-Just run it with 'node index.js'
+These are the instructions
 ## Usage Guide
-Fill out all the fields as you are prompted to generate a readme
+This is how to use the project
 ## License
-Creative commons
+This project is published under the Mozilla Public License 2.0 license.
 ## Contribution Guide
-Add whatever idk
+This is how to contribute
 ## Test Instructions
-No tests available
+This is how you run tests
 ## Questions
 Github: [jareddaniel95](https://github.com/jareddaniel95)  
-Email: sampleemail@email.com
+Email: sample@test.com
