@@ -64,7 +64,6 @@ function writeToFile(fileName, data) {
 }
 
 function init() {
-    console.log("test");
     inquirer
         .prompt(questions)
         .then((answers) => {
